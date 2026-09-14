@@ -1,7 +1,6 @@
-Markdown
-# Navigazione e percorsi nel terminale
 
-## Sequenza dei comandi eseguiti
+# MODULO M0 - ESERCIZI
+## Esercizio 2 - Navigazione e percorsi nel terminale
 
 ```powershell
 # 1. Spostamento nella cartella Documents
