@@ -1,0 +1,32 @@
+# MODULO M0 - ESERCIZI
+## Esercizio 7 - File .gitignore e verifica delle regole
+
+# Cache di Python
+__pycache__/
+
+# Ambienti Virtuali Python
+.venv/
+
+# File temporanei di Windows
+Thumbs.db
+*.tmp
+
+
+# Creazione ambiente virtuale di prova
+py -3.12 -m venv M0_ambiente\.venv
+
+# Verifica dello stato (M0_ambiente/.venv NON deve comparire)
+git status
+
+# Controllo della regola usata da Git per ignorarlo
+git check-ignore -v M0_ambiente/.venv/pyvenv.cfg
+
+# Verifica della configurazione del file .gitignore
+
+## 1. Esito del comando `git status`
+
+```text
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
